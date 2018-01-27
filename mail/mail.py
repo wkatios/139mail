@@ -169,7 +169,7 @@ class Mail139(object):
         html=s.post(url=url,data=data)
         print html.content
 
-mail=Mail139(15705211213,'wk123456')
+mail=Mail139(1111,'who are  you')
 # mail._Mail139__check_password()
 s,sid ,rekey = mail.login()
 mail.inbox()
